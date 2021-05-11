@@ -11,7 +11,9 @@
         android:theme="@style/Theme.ActivityDemo">
         <activity android:name=".SecondActivity" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="sensor"
+            >
 <!--        <activity android:name=".ContextDemoActivity">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
